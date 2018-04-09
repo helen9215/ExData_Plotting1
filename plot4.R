@@ -13,7 +13,7 @@ with(power, {
         with(power,lines(alldate,Sub_metering_2, col="red"))
         with(power,lines(alldate,Sub_metering_3, col="blue"))
         legend("topright",col= c("black","red","blue"), lwd = 1,box.lwd=0,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
-        plot(alldate,Global_reactive_power, type="l",xlab="datetime",ylab="Voltage")
+        plot(alldate,Global_reactive_power, type="l",xlab="datetime",ylab="Global_reative_power")
         }
      )
      
